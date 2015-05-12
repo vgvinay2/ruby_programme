@@ -1,5 +1,5 @@
-## proc_obj_without_block = Proc.new
-## proc_obj_without_block = proc.new
+## proc_obj_without_block_not_possible = Proc.new # Proc class
+## proc_obj_without_block_not_possible = proc.new # Kernel#proc
 #
 #proc_obj_with_block = Proc.new { }
 ## proc_obj_with_block = proc.new { }
@@ -51,7 +51,7 @@
 
 
 
-####################Difference between proc and lambda #############################
+#################### Difference between proc and lambda: 1 #########################
 ####################################################################################
 
 #def return_from_proc
@@ -72,22 +72,18 @@
 #return_from_lambda
 
 
+#################### Difference between proc and lambda: 2 #########################
 ####################################################################################
-####################################################################################
 
-def return_from_proc
-  prok = proc { return 'i am in proc block'}
-  prok.call()
-  return 'i am proc return value'
-end
+prok = proc { |a,b| "HEllo#{a}===and==#{b}"}
+prok.call
+prok.call('Ajay')
+prok.call('Ajay', 'Vijay')
+prok.call('Ajay', 'Vijay', 'Sanjay')
 
+stabby_lambda = ->(a,b)  { "HEllo#{a}===and==#{b}"}
+stabby_lambda.call
+stabby_lambda.call('Ajay')
+stabby_lambda.call('Ajay', 'Vijay')
+stabby_lambda.call('Ajay', 'Vijay', 'Sanjay')
 
-
-def return_from_lambda
-  lamda = -> { return 'i am in lambda block'}
-  lamda.call()
-  return 'i am lambda return value'
-end
-
-p return_from_proc
-p return_from_lambda
