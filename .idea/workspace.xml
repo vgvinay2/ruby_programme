@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d90e2f66-a4bf-489e-b208-deac641a3d94" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_3.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda.rb" afterPath="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_1.rb" afterPath="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_1.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_2.rb" afterPath="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_2.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/block Proc and Lambda/closure_in_ruby.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Splat/attr_validate.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Splat/block.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Splat/splat.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Splat/implicit_splat.rb" afterPath="$PROJECT_DIR$/Splat/2_implicit_splat.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Splat/splat_basic.rb" afterPath="$PROJECT_DIR$/Splat/1_splat_basic.rb" />
     </list>
     <ignored path="Ruby Programme.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,41 +36,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="proc_and_lambda.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda.rb">
+      <file leaf-file-name="1_splat_basic.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Splat/1_splat_basic.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1672" max-vertical-offset="2375">
-              <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1772" max-vertical-offset="2475">
+              <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="block.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/block Proc and Lambda/block.rb">
+      <file leaf-file-name="2_implicit_splat.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Splat/2_implicit_splat.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1272" max-vertical-offset="1975">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proc_and_lambda_1.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_1.rb">
+      <file leaf-file-name="inject.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Splat/inject.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1800">
-              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="3347" max-vertical-offset="4050">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proc_and_lambda_2.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_2.rb">
+      <file leaf-file-name="closure_in_ruby.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/block Proc and Lambda/closure_in_ruby.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9288762" vertical-offset="547" max-vertical-offset="1350">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.67391306" vertical-offset="18310" max-vertical-offset="19000">
+              <caret line="751" column="29" selection-start-line="751" selection-start-column="7" selection-end-line="751" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="enumerable.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/enumerable.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.740741" vertical-offset="8500" max-vertical-offset="25800">
+              <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -92,6 +104,9 @@
         <option value="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_1.rb" />
         <option value="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_3.rb" />
         <option value="$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_2.rb" />
+        <option value="$APPLICATION_HOME_DIR$/rubystubs193/enumerable.rb" />
+        <option value="$PROJECT_DIR$/Splat/inject.rb" />
+        <option value="$PROJECT_DIR$/block Proc and Lambda/closure_in_ruby.rb" />
       </list>
     </option>
   </component>
@@ -211,7 +226,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="splat_basic" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+    <configuration default="false" name="1_splat_basic" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="Ruby Programme" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
       <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/Splat" />
@@ -227,7 +242,7 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Splat/splat_basic.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/Splat/1_splat_basic.rb" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
       <RunnerSettings RunnerId="RubyRunner" />
       <ConfigurationWrapper RunnerId="RubyRunner" />
@@ -337,14 +352,14 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Ruby.test" />
-      <item index="1" class="java.lang.String" itemvalue="Ruby.splat_basic" />
+      <item index="1" class="java.lang.String" itemvalue="Ruby.1_splat_basic" />
       <item index="2" class="java.lang.String" itemvalue="Ruby.inject" />
     </list>
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Ruby.test" />
         <item index="1" class="java.lang.String" itemvalue="Ruby.inject" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.splat_basic" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.1_splat_basic" />
       </list>
     </recent_temporary>
   </component>
@@ -448,23 +463,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/block.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="306">
-          <caret line="11" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat_basic.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/1_splat_basic.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="1782">
           <caret line="92" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -472,18 +471,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/implicit_splat.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/2_implicit_splat.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/attr_validate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2106">
-          <caret line="22" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -526,23 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/block.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat_basic.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/1_splat_basic.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="1782">
           <caret line="92" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -550,18 +525,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/implicit_splat.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/2_implicit_splat.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/attr_validate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2106">
-          <caret line="22" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -574,23 +541,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/block.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat_basic.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/1_splat_basic.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="1782">
           <caret line="92" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -598,18 +549,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/implicit_splat.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/2_implicit_splat.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/attr_validate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2106">
-          <caret line="22" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -622,23 +565,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/block.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat_basic.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/1_splat_basic.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="1782">
           <caret line="92" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -646,7 +573,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/implicit_splat.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/2_implicit_splat.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -654,31 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/attr_validate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2106">
-          <caret line="15" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/block.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat_basic.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/1_splat_basic.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="1782">
           <caret line="92" column="20" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -686,25 +589,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/implicit_splat.rb">
+    <entry file="file://$PROJECT_DIR$/Splat/2_implicit_splat.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="108">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/attr_validate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2106">
-          <caret line="8" column="3" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/block.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -714,46 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.55414" vertical-offset="2232" max-vertical-offset="2862">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="275" max-vertical-offset="425">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/splat_basic.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2300" max-vertical-offset="2475">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/implicit_splat.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/attr_validate.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="2925">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/inject.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="725" max-vertical-offset="4050">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -781,22 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Other/test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5334282" vertical-offset="0" max-vertical-offset="4300">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Splat/block.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4104">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/block Proc and Lambda/block.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1272" max-vertical-offset="1975">
@@ -805,26 +636,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda.rb">
+    <entry file="file://$PROJECT_DIR$/Other/test.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1672" max-vertical-offset="2375">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_1.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="972" max-vertical-offset="1800">
-          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.14224751" vertical-offset="0" max-vertical-offset="4300">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_2.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9288762" vertical-offset="547" max-vertical-offset="1350">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.458037" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda_1.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.311522" vertical-offset="0" max-vertical-offset="1800">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block Proc and Lambda/proc_and_lambda.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.3513513" vertical-offset="247" max-vertical-offset="2375">
+          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Splat/1_splat_basic.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1772" max-vertical-offset="2475">
+          <caret line="93" column="3" selection-start-line="93" selection-start-column="3" selection-end-line="93" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Splat/2_implicit_splat.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="652">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs193/enumerable.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.740741" vertical-offset="8500" max-vertical-offset="25800">
+          <caret line="357" column="24" selection-start-line="357" selection-start-column="24" selection-end-line="357" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Splat/inject.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3347" max-vertical-offset="4050">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/block Proc and Lambda/closure_in_ruby.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67391306" vertical-offset="18310" max-vertical-offset="19000">
+          <caret line="751" column="29" selection-start-line="751" selection-start-column="7" selection-end-line="751" selection-end-column="29" />
           <folding />
         </state>
       </provider>
