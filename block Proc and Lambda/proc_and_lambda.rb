@@ -75,15 +75,15 @@
 #################### Difference between proc and lambda: 2 #########################
 ####################################################################################
 
-prok = proc { |a,b| "HEllo#{a}===and==#{b}"}
-prok.call
-prok.call('Ajay')
-prok.call('Ajay', 'Vijay')
-prok.call('Ajay', 'Vijay', 'Sanjay')
-
-stabby_lambda = ->(a,b)  { "HEllo#{a}===and==#{b}"}
-stabby_lambda.call
-stabby_lambda.call('Ajay')
-stabby_lambda.call('Ajay', 'Vijay')
-stabby_lambda.call('Ajay', 'Vijay', 'Sanjay')
+# prok = proc { |a,b| "HEllo#{a}===and==#{b}"}
+# prok.call
+# prok.call('Ajay')
+# prok.call('Ajay', 'Vijay')
+# prok.call('Ajay', 'Vijay', 'Sanjay')
+#
+# stabby_lambda = ->(a,b)  { "HEllo#{a}===and==#{b}"}
+# stabby_lambda.call
+# stabby_lambda.call('Ajay')
+# stabby_lambda.call('Ajay', 'Vijay')
+# stabby_lambda.call('Ajay', 'Vijay', 'Sanjay')
 

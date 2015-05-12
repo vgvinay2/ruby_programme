@@ -1,21 +1,48 @@
-def context
+# http://www.reactive.io/tips/2008/12/21/understanding-ruby-blocks-procs-and-lambdas/
 
-  p = proc do
-    p 'in the proc'
-    return 'Proc return value'
-  end
+######################################################
+######################################################
 
-  l = lambda do
-    p 'in the lambda'
-    return 'Lambda return value'
-  end
-
-  #p.call
-  #l.call
-
-  l.call
-  p.call
-  p 'i am last '
+def first_each_child(visitor)
+  visitor.call('Jon')
+  visitor.call('Shoo')
+  visitor.call('Roy')
+  visitor.call('Norad')
+  visitor.call('York')
 end
 
-context
+visitor = ->(v) { p "Hello!! #{v}" }                  ## This is proc object.
+first_each_child(visitor)
+
+######################################################
+######################################################
+
+def second_each_child
+  yield('Jon')
+  yield('Shoo')
+  yield('Roy')
+  yield('Norad')
+  yield('York')
+end
+
+second_each_child do |v|
+  p "Hello!! #{v}"
+end
+
+##  Now if we want we can reference a block the argument as a proc object,
+##  by adding  a parameter name with ampersand
+
+######################################################
+######################################################
+def third_each_child(&visitor)
+  visitor.call('Jon')
+  visitor.call('Shoo')
+  visitor.call('Roy')
+  visitor.call('Norad')
+  visitor.call('York')
+end
+
+third_each_child do |v|
+  p "Hello!! #{v}"
+end
+
