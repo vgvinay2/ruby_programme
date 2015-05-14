@@ -30,3 +30,27 @@ end
 
 artist.name = 'The Artist Formerly Known As Prince'
 artist.name = 'ruby'
+
+
+################################################################
+###################### SECOND WAY TO ###########################
+
+class Class
+  def my_attr_accessor(*args)
+    args.each do |arg|
+      ## Getter methods
+      define_method(arg) do
+        instance_variable_get("@#{arg}")
+      end
+      ## Setter methods
+      define_method("#{arg}=") do |value|
+        instance_variable_set("@#{arg}", value)
+      end
+    end
+  end
+end
+
+class Person
+  my_attr_accessor :name, :address
+end
+

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Ruby Programme.iml" filepath="$PROJECT_DIR$/.idea/Ruby Programme.iml" />
       <module fileurl="file://$PROJECT_DIR$/../codebrahma.github.io/.idea/codebrahma.github.io.iml" filepath="$PROJECT_DIR$/../codebrahma.github.io/.idea/codebrahma.github.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../veto/.idea/veto.iml" filepath="$PROJECT_DIR$/../veto/.idea/veto.iml" />
     </modules>
   </component>
 </project>

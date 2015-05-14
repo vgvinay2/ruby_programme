@@ -1,39 +1,6 @@
 ###################################################
 ###################################################
 
-#class SaveArticleStatus
-
-  #def publish
-  #  @state = :publish
-  #end
-  #
-  #def draft
-  #  @state = :draft
-  #end
-  #
-  #def incomplete
-  #  @state = :incomplete
-  #end
-  #
-  #def went_on_live
-  #  @state = :went_on_live
-  #end
-  #
-  #[:publish, :draft, :incomplete, :went_on_live].each do |method|
-  #  p method
-  #  byebug
-  #  define_method method do
-  #    @state = method
-  #  end
-  #end
-
-#end
-
-#save_article_status = SaveArticleStatus.new
-#p save_article_status.draft
-
-###################################################
-###################################################
 
 
 
