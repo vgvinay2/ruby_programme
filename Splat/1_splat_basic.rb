@@ -25,6 +25,31 @@ p x, y, z
 #######################################################################
 a1 = [:first, :second, :third, :fourth]
 x, y, z = *a1
+
+#######################################################################
+#######################################################################
+## Assassinate & Assign
+## Be the hero your code deserves by saving the arguments you need and dispose of the rest with ease:
+
+a, b = [:a, :b]
+a # => :a
+b # => :b
+
+a, b = [:a, :b, :c] # :c is lost
+a # => :a
+b # => :b
+
+a, *rest = [:a, :b, :c]
+a # => :a
+rest # => [:b, :c]
+If you don’t care about the rest? Don’t name it:
+
+a, *= [:a, :b, :c]
+a # => :a
+You can even rely on Ruby’s implicit splatting and rewrite the above as:
+
+a ,= [:a, :b, :c]
+a # => :a
 p x, y, z
 
 #######################################################################
