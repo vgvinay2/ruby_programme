@@ -1,25 +1,3 @@
- Skip to content
-This repository
-
-    Pull requests
-    Issues
-    Gist
-
-    @vgvinay2
-
-1
-1
-
-    0
-
-kuldeepaggarwal/advance_ruby
-
-advance_ruby/MyObjectStore/lib/my_object_store.rb
-kuldeepaggarwal on 15 Aug 2012
-Store intendent and completed
-
-0 contributors
-90 lines (90 sloc) 2.757 kB
 module MyObjectStore
 def self.included(cls)
 cls.class_eval {
@@ -110,19 +88,3 @@ Objects.total
 Objects.find_by_fname("Kd")
 Objects.find_by_age("22")
 end
-
-    Status
-    API
-    Training
-    Shop
-    Blog
-    About
-    Pricing
-
-    © 2015 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Contact
-    Help
-
