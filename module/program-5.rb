@@ -1,7 +1,7 @@
 module M
 
   def report
-    puts "'report' method in module M"
+    p "'report' method in module M"
   end
 
 end
@@ -9,7 +9,7 @@ end
 module N
 
   def report
-    puts "'report' method in module N"
+    p "'report' method in module N"
   end
 
 end
@@ -21,6 +21,5 @@ class C
 # include M
 
 end
-
 c = C.new
 c.report

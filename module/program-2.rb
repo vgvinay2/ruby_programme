@@ -1,7 +1,7 @@
 module MyFirstModule
 
   def say_hello
-    puts "Hello"
+    p "Hello"
   end
 
 end
