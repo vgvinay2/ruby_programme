@@ -10,7 +10,6 @@ class User
 end
 
 
-
 user = User.new('Vinay', 'Interpreting!!!')
 user.name
 user.status
