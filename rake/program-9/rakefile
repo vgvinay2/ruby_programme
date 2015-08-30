@@ -1,0 +1,9 @@
+desc "Create config directory"
+
+directory "config" # config is a special method to create directory.
+
+# rake -T
+# rake config
+# => mkdir -p config
+# what happened if we run the rake config command same time  it wont run rub the command again !!!
+# As i said earlier task is only run if its needs to be run.

@@ -1,0 +1,21 @@
+# A normal rake task to Split User.name into first_name and last_name'
+
+namespace :name do
+
+  desc 'Split User.name into first_name and last_name'
+
+  task split: :environment do
+    users = User.all
+    users.each do |user|
+      Rails.logger.info("Updating name for #{user.id} : #{user.email}, #{user.name}." )
+
+      user.first_name = user.name.split(" ").first
+      user.first_last = user.name.split(" ").last
+
+      Rails.logger.info("Update successfully") if user.save
+    end
+  end
+
+end
+
+# rake name:split

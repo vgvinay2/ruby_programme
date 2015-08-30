@@ -1,0 +1,9 @@
+desc "Create foo file"
+file "foo" # file is a special method to create file.
+
+# rake -T
+# it will show all the task available
+# rake foo
+# "ls"
+# it wont create any file for us ? this is how rake command it is . we need to rake explicitly to
+# create a file. That we will see in next programme.

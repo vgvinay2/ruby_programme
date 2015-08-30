@@ -1,0 +1,37 @@
+desc "Create foo file"
+file "foo" do
+  touch "foo"
+end
+
+# yes!!! here we tell rake command utility to run touch command to create a file.
+
+# rake -T
+# rake foo
+# ls
+# rakefile foo => yup!! the file os do exists
+
+
+# ok lets fo one step further and trigger some command utility
+# ls -lt rakefile => -rw-rw-r-- 1 vinay vinay 0 Sep  6 00:48 foo
+
+# rake foo
+# rake foo
+# rake foo
+# rake foo
+# rake foo
+# rake foo
+
+# ls -lt rakefile => -rw-rw-r-- 1 vinay vinay 0 Sep  6 00:48 foo
+# Even we run rake task man a times but timestamp doest changed what that about.
+# Tasks are only run if its needs to be run. and file task has special meaning in rake. If file doest exists
+# then the action will run if the file exists then the action wont get run. AS we are not updating our file
+# the action wont run.
+
+# Now trigger the shell command for the same file.  touch command  :P
+# touch foo
+# ls -lt foo => -rw-rw-r-- 1 vinay vinay 0 Sep  6 00:54 foo
+# Now the  update timestamp has been changed because linux utility touch method has different as compare to
+# rake touch method.
+
+
+

@@ -3,38 +3,16 @@ task :hello do
   print 'Hello'
 end
 
-# desc 'Say Helllo Again'
-# task :world do
-#   puts ', World'
-# end
-
-# rake -T
-# rake world
-# rake hello world
-
-############################################
-############################################
-
 desc 'Say Helllo Again'
-task :world => :hello do
+task :world do
   puts ', World'
 end
 
+# rake -T
+# rake hello
 # rake world
-
-############################################
-############################################
-# Let go for some research !!!
-
-# rake world                  => Hello, World
-# rake world hello            => Hello, World
-# rake world hello  hello     => Hello, World
+# rake hello world
+# rake hello world hello
+# rake hello world hello world
 
 # Tasks are only run once
-
-# you can ask to rake prerequisite for all the that is know about.
-# rake -p
-
-# rake hello
-# rake world # Because world depend on hello so
-#      hello # it is indented like this
