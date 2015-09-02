@@ -1,0 +1,39 @@
+# I’ll go more in-depth with Rake’s domain-specific language (DSL) in future posts,
+# but just to cover our bases, here’s a simple example:
+
+# task is method which take only one argument as a name; name can be in String or Symbol.
+
+task :hello do ## task "hello"
+  p 'Hello Rake Task !!!'
+end
+
+## rake hello
+
+## Global Tasks
+
+# Typically, Rake tasks are defined per project, by writing the task definitions in the Rakefile,
+# placed in the root directory of your project. But, that’s not the only place you can define Rake
+# tasks; Rake does let you define global tasks, these global tasks can be run from any directory – even
+# those that do not have a Rakefile in their hierarchy.
+
+# Step: 1
+# The first step is to make the ~/.rake directory where the task definition files will reside
+
+# Step: 2
+# mkdir ~/.rake
+
+# Step:3
+# Next create the file for the task definitions,
+# the file’s name does not matter, but it must the have .rake extension:
+# touch ~/.rake/hello.rake
+
+# Step: 4
+# Add tasks to newly created file just like you would in any Rakefile;
+# I’ll use our above hello task as an example:
+# $ echo -e 'task "hello" do\n  puts "Hello, World"\nend' > ~/.rake/hello.rake
+
+# Step: 5
+# Invoke global task, the -g flag is the important part:
+
+# rake -g hello
+# Hello, World
