@@ -7,7 +7,7 @@ module A
    X = 2
    module C
      def self.print_const
-       puts X
+       p X
      end
    end
  end
@@ -27,7 +27,7 @@ end
 module A
   module B::C
     def self.print_const
-      puts X
+      p X
     end
   end
 end
@@ -44,7 +44,7 @@ module A
   module B
     X = 2
     module C
-      puts Module.nesting # => [A::B::C, A::B, A]
+      p Module.nesting # => [A::B::C, A::B, A]
     end
   end
 end
@@ -67,7 +67,7 @@ end
 
 module A
   module B::C
-    puts Module.nesting # => [A::B::C, A]
+    p Module.nesting # => [A::B::C, A]
   end
 end
 
