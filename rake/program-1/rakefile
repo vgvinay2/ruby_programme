@@ -1,0 +1,31 @@
+# If you checkout the GitHub repository for Rake, you will see it describes Rake as:
+#  ""make-like build utility for Ruby.""
+# And, unless you know what Make is, that description is probably not all that helpful.
+# The Rake tutorial describes Rake as:
+#  ""A build tool, written in Ruby, using Ruby as a build language.""
+#
+# Okay, so now we’ve seen the “build” term a lot, but again, if you are not familiar with Make,
+# you are probably not too familiar with what a build tool/utility is. I believe the Wikipedia
+# article for Rake does a better job summarizing it: ""A software task management tool. It allows
+# you to specify tasks and describe dependencies as well as to group tasks in a namespace.""
+
+# But, now we’ve replaced one vague term, build tool, with another: task management tool.
+# Because of that, I think we need a more helpful description; while not as succinct as those
+# given above, here’s how I like to describe Rake:
+#
+# 1: Rake lets you define tasks
+# 2: Tasks can depend on other tasks
+# 3: Tasks are only run if needed
+# 4: Tasks are only run once
+#
+# But, we still need a definition for tasks. Since you define your tasks in Ruby, your tasks can do
+# anything that you can do in Ruby. Which means you can do pretty much anything you want in your
+# tasks – problematically speaking.
+
+## A simple way of writing  a rake task
+
+task :hello
+
+## rake hello
+
+## As we don't hae any action so it wont do anything.

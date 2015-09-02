@@ -1,0 +1,28 @@
+task :hello do
+  p 'Hello Rake Task !!!'
+end
+
+task :hello do
+  p 'Hello Rake Task !!! Hello Again !!!'
+end
+
+# rake hello
+# As you might aspect that output should be p 'Hello Rake Task !!! Hello Again !!!' but not
+# Because rake is not like Method Overriding (LOL) . It will add those task as well.
+
+# That's okk who might we can see how many task rake know about
+
+# rake --tasks or rake -T
+
+# as i told you that it will give the list of task available , but what happened to this
+
+# for that we need to desc the task for.
+
+
+desc 'Print hello task'
+task :hello do
+  p 'Hello Rake Task !!!'
+end
+
+
+## Ok Its enough for today !!!
