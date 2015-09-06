@@ -1,13 +1,13 @@
 #######################################################################
 #######################################################################
 a1 = [:first, :second, :third, :fourth] # => [:first, :second, :third, :fourth]
-a1 = :first, :second, :third, :fourth # => [:first, :second, :third, :fourth]
+a1 = :first, :second, :third, :fourth   # => [:first, :second, :third, :fourth]
 
 #######################################################################
 #######################################################################
 a1 = [:first, :second, :third, :fourth]
 a2 = [:before, a1, :after]
-p a2 # => [:before, [:first, :second, :third, :fourth], :after]
+p a2         # => [:before, [:first, :second, :third, :fourth], :after]
 p a2.flatten # => [:before, :first, :second, :third, :fourth, :after]
 
 #######################################################################
@@ -40,13 +40,13 @@ a # => :a
 b # => :b
 
 a, *rest = [:a, :b, :c]
-a # => :a
+a    # => :a
 rest # => [:b, :c]
-If you don’t care about the rest? Don’t name it:
+#If you don’t care about the rest? Don’t name it:
 
 a, *= [:a, :b, :c]
 a # => :a
-You can even rely on Ruby’s implicit splatting and rewrite the above as:
+#You can even rely on Ruby’s implicit splatting and rewrite the above as:
 
 a ,= [:a, :b, :c]
 a # => :a

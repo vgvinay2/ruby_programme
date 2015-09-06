@@ -18,9 +18,9 @@ hello('denny', :a, :b, upcase: true) { 'block this!' }
 def hello(name = nil, *args)
 
 # Throws SyntaxError:
-def hello(*args, name = nil)
-
+def hello(*args, name = nil); end
 # Using several splats in a definition SyntaxErrors too:
-def hello(a, *args, b, *brgs)
-Ruby wouldn’t know where to cut off the splats, so the SyntaxError’s are well deserved.
+
+def hello(a, *args, b, *brgs); end
+# Ruby would not know where to cut off the splats, so the SyntaxError’s are well deserved.
 
