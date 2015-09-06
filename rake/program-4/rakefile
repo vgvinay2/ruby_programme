@@ -15,4 +15,4 @@ end
 # rake hello world hello
 # rake hello world hello world
 
-# Tasks are only run once
+# Tasks are run only  once

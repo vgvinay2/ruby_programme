@@ -4,7 +4,6 @@
 # The Rake tutorial describes Rake as:
 # A build tool, written in Ruby, using Ruby as a build language."
 
-#
 # Okay, so now we’ve seen the “build” term a lot, but again, if you are not familiar with Make,
 # you are probably not too familiar with what a build tool/utility is. I believe the Wikipedia
 # article for Rake does a better job summarizing it: ""A software task management tool. It allows
