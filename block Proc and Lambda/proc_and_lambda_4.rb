@@ -3,7 +3,7 @@
 
 # I recommend executing this file, then reading it alongside its output.
 #
-# Alteratively, you can give yourself a sort of Ruby test by deleting all the comments,
+# Alternatively, you can give yourself a sort of Ruby test by deleting all the comments,
 # then trying to guess the output of the code!
 
 # A closure is a block of code which meets three criteria:
