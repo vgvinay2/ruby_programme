@@ -21,31 +21,3 @@ end
 
 health = Health.new
 health.sort_the_test
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
