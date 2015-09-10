@@ -29,8 +29,8 @@ p proc_obj_by_kernel_proc.('Vinay')
 p proc_obj_by_kernel_proc['Vinay']
 p proc_obj_by_kernel_proc.call('Vinay', 'Brijesh')
 
-###########################################################
-###########################################################
+###################################Alteratively########################
+#######################################################################
 
 p '=====================Now About Lambda'
 proc_obj_by_lambda_without_block = lambda { }

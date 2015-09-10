@@ -1,66 +1,77 @@
-class Paper
+#######################################################
+#######################################################
+#Example One: A Basic Code Block
+def simple
+  puts 'Here comes the code block!'
+  yield
+  puts 'There was the code block!'
+end
+simple { puts 'Hooray! The code block is here!' }
+# => Here comes the code block!
+# => Hooray! The code block is here!
+# => There was the code block!
 
-  def initialize(&block)
-    block.call if block_given?
+
+#######################################################
+#######################################################
+#Example Two: An Optional Code Block
+def optional
+  puts 'A code block isn\'t required, but it\'s nice.'
+  yield if block_given? #Kernel#block_given?
+  puts 'I\'m happy either way, really.'
+end
+optional
+# => A code block isn't required, but it's nice.
+# => I'm happy either way, really.
+
+
+#######################################################
+#######################################################
+#Example Three: A Code Block With Parameters
+def parameters
+  puts 'Here, have two random numbers.'
+  yield rand(10), rand(50) if block_given?
+  puts 'Now say thank you!'
+end
+parameters { |x,y| puts "#{x}, #{y}" }
+# =>Here, have two random numbers.
+# =>                      8, 21
+# =>Now say thank you!
+
+#######################################################
+#######################################################
+class MyArray
+  attr_reader :array
+
+  def initialize(array)
+    @array = array
   end
 
-  def set_variable
-    return Proc.new do |kind, val|
-      [kind, val].join(':')
+  def sum(initial_value = 0)
+    total = initial_value
+    @array.each do |n|
+      if block_given?
+        p total
+        total += yield(n)
+      else
+        total += n
+      end
     end
+    total
   end
-
-  def title(value)
-    @title = set_variable.call('TITLE', value)
-  end
-
-  def heading(value)
-    @heading = set_variable.call('HEADING', value)
-  end
-
-  def body(value)
-    @body = set_variable.call('BODY', value)
-  end
-
-  def display
-    p @title
-    p @heading
-    p @body
-  end
-
 
 end
 
-paper  = Paper.new do |p|
-  p.title "My AweSome Paper"
-  p.heading "My AweSome Paper"
-  p.body "My AweSome Paper"
-end
-paper.display
+my_array = MyArray.new([1, 2, 3])
+my_array.sum # gives 6
+my_array.sum(10) # gives 16
+my_array.sum(0) {|n| n ** 2 } # gives 14
+
+######################### Very Very Important ##############
+############################################################
+x = 10
+defined? x
+# => "local-variable"
 
 
-
-#######################################################
-#######################################################
-def context
-
-  p = proc do
-    p 'in the proc'
-    return 'Proc return value'
-  end
-
-  l = lambda do
-    p 'in the lambda'
-    return 'Lambda return value'
-  end
-
-  #p.call
-  #l.call
-
-  l.call
-  p.call
-  p 'i am last '
-end
-
-context
 
