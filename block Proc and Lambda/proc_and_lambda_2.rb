@@ -72,6 +72,3 @@ my_array.sum(0) {|n| n ** 2 } # gives 14
 x = 10
 defined? x
 # => "local-variable"
-
-
-
