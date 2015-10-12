@@ -1,0 +1,15 @@
+= Ruby Metaprogramming
+
+== References/Resources
+Repo about to ruby programme
+Here we will learn the basic as well intermediate concept of Ruby
+
+
+=== Books
+
+* {Metaprogramming Ruby}[http://www.pragprog.com/titles/ppmetr/metaprogramming-ruby] - Entire book
+
+== Exercises
+
+* {Metaprogramming in Ruby}[http://ruby-metaprogramming.rubylearning.com/] - {Solutions}[http://github.com/geetarista/ruby-metaprogramming/tree/master/rubylearning/]
+* {An Exercise in Metaprogramming with Ruby}[http://www.devsource.com/c/a/Languages/An-Exercise-in-Metaprogramming-with-Ruby/]
