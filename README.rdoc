@@ -22,17 +22,3 @@ Repo about to ruby programme.Here we will learn the basic as well intermediate c
 
 * {Metaprogramming in Ruby}[http://ruby-metaprogramming.rubylearning.com/] - {Solutions}[http://github.com/geetarista/ruby-metaprogramming/tree/master/rubylearning/]
 * {An Exercise in Metaprogramming with Ruby}[http://www.devsource.com/c/a/Languages/An-Exercise-in-Metaprogramming-with-Ruby/]
-
-Books
------
-1. [The Ruby Programming Language](http://oreilly.com/catalog/9780596516178/), Chapter 8: Reflection and Metaprogramming
-
-2. [Programming Ruby](http://www.pragprog.com/titles/ruby3/programming-ruby-1-9), Chapter 24: Metaprogramming
-
-3. [The Well-Grounded Rubyist](http://www.manning.com/black2/), Part 3: Ruby dynamics
-
-4. [The Book Of Ruby](http://www.sapphiresteel.com/The-Book-Of-Ruby), Chapter 20: Dynamic Programming
-
-5. [Ruby Best Practices](http://oreilly.com/catalog/9780596156749/), Chapter 3: Mastering the Dynamic Toolkit
-
-6. [Metaprogramming Ruby](http://www.pragprog.com/titles/ppmetr/metaprogramming-ruby) by [Paolo Perrotta](http://rubylearning.com/blog/2009/07/01/interview-author-paolo-perrotta/), **Super Highly Recommend!!**
