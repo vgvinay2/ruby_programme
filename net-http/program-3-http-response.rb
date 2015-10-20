@@ -5,7 +5,7 @@ def get_web_document(url)
   response = Net::HTTP.get_response(uri)
   case response
     when Net::HTTPSuccess
-      return response.body
+      return response.body # rerurn will return otherwise, will execute till last case
     when Net::HTTPRedirection
       return get_web_document(response['Location'])
     else
