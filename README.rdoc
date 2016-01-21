@@ -1,9 +1,9 @@
 = Ruby Metaprogramming
 
-Repo about to ruby programme.Here we will learn the basic as well intermediate concept of Ruby
+Repo about to ruby programme.Here we will learn the basic as well intermediate concept of Ruby.
 
 === Books
-
+---
 1. {The Ruby Programming Language}[http://oreilly.com/catalog/9780596516178/], Chapter 8: Reflection and Metaprogramming
 
 2. {Programming Ruby}[http://www.pragprog.com/titles/ruby3/programming-ruby-1-9], Chapter 24: Metaprogramming
@@ -14,11 +14,19 @@ Repo about to ruby programme.Here we will learn the basic as well intermediate c
 
 5. {Ruby Best Practices}[http://oreilly.com/catalog/9780596156749/], Chapter 3: Mastering the Dynamic Toolkit
 
-6. {Metaprogramming Ruby}[http://www.pragprog.com/titles/ppmetr/metaprogramming-ruby] by [Paolo Perrotta](http://rubylearning.com/blog/2009/07/01/interview-author-paolo-perrotta/), **Super Highly Recommend!!**
+6. {Metaprogramming Ruby}[http://www.pragprog.com/titles/ppmetr/metaprogramming-ruby] by [Paolo Perrotta](http://rubylearning.com/blog/2009/07/01/interview-author-paolo-perrotta/), Super Highly Recommend!!!
 
-* {Metaprogramming Ruby}[http://www.pragprog.com/titles/ppmetr/metaprogramming-ruby] - Entire book
+7. {Metaprogramming Ruby}[http://www.pragprog.com/titles/ppmetr/metaprogramming-ruby] - Entire book
 
-== Exercises
-
+=== Exercises
+---
 * {Metaprogramming in Ruby}[http://ruby-metaprogramming.rubylearning.com/] - {Solutions}[http://github.com/geetarista/ruby-metaprogramming/tree/master/rubylearning/]
 * {An Exercise in Metaprogramming with Ruby}[http://www.devsource.com/c/a/Languages/An-Exercise-in-Metaprogramming-with-Ruby/]
+
+=== Contributing
+---
+1. Fork it ( https://github.com/[my-github-username]/params_for/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new Pull Request
