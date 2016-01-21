@@ -25,8 +25,8 @@ Repo about to ruby programme.Here we will learn the basic as well intermediate c
 
 === Contributing
 ---
-1. Fork it ( https://github.com/[my-github-username]/params_for/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+1. Fork it https://github.com/[my-github-username]/params_for/fork
+2. Create your feature branch <tt>git checkout -b my-new-feature</tt>
+3. Commit your changes <tt>git commit -am 'Add some feature</tt>
+4. Push to the branch <tt>git push origin my-new-feature</tt>
+5. Create a new <tt>Pull Request</tt>
