@@ -19,12 +19,12 @@ num == 3
 
 prc = proc {|num| num == 4}
 prc.instance_exec { def == other; other == 3 end  }
- 
+
 prc.call(4)
 # => true
 prc.call(3)
 # => false
- 
+
 prc == 4
 # => false
 prc == 3
