@@ -1,3 +1,21 @@
+Difference between Ruby JSON and Javascript JSON
+In Ralis Console
+publisher_json = {
+        "publisher_jid" => "publisher_jid",
+        "publisher_password" => "publisher_password",
+        "node" => "publisher_node"
+    }
+ => {"publisher_jid"=>"publisher_jid", "publisher_password"=>"publisher_password", "node"=>"publisher_node"} 
+
+publisher_json.to_json
+ => "{\"publisher_jid\":\"publisher_jid\",\"publisher_password\":\"publisher_password\",\"node\":\"publisher_node\"}" 
+
+Now Open console of WebBrowser and execute the above string ....Now you could see the defference between these two.
+
+> "{\"publisher_jid\":\"publisher_jid\",\"publisher_password\":\"publisher_password\",\"node\":\"publisher_node\"}"
+< "{"publisher_jid":"publisher_jid","publisher_password":"publisher_password","node":"publisher_node"}"
+
+==========================================================================
 a = "{key:'14',data:{order: '154'}}"
 
 JSON.parse(a)
